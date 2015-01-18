@@ -1,0 +1,17 @@
+// code for fibonacci series
+    #include<stdio.h>
+    #include<conio.h>
+void main()
+{
+ int a=0,b=1,c,n;
+ 
+ printf("Enter the no. upto which FIBONACCI SERIES is to be printed: ");
+ 
+  scanf("%d",&n);
+  printf("%d%d",&a,&b);
+ for(c=a+b;c<=n;c=a+b)
+  {
+    printf("%d",c);
+     a=b;
+     b=c;
+  }
