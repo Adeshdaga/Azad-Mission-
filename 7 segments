@@ -1,0 +1,36 @@
+/*
+Adesh Daga
+7 segments
+*/
+
+#include<xc.h>
+
+void main()
+{
+    TRISD=0;
+    int i;
+
+    PORTD=0x7E;
+    for(i=1;i>0;i++);
+    PORTD=0xC;
+    for(i=1;i>0;i++);
+    PORTD=0xB6;
+    for(i=1;i>0;i++);
+    PORTD=0x9E;
+    for(i=1;i>0;i++);
+    PORTD=0xCC;
+    for(i=1;i>0;i++);
+    PORTD=0xDA;
+    for(i=1;i>0;i++);
+    PORTD=0xFA;
+    for(i=1;i>0;i++);
+    PORTD=0xE;
+    for(i=1;i>0;i++);
+    PORTD=0xFE;
+    for(i=1;i>0;i++);
+    PORTD=0xDE;
+    for(i=1;i>0;i++);
+
+
+}
+ 
