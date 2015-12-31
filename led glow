@@ -1,0 +1,12 @@
+/*
+Adesh Daga
+led glow
+*/
+
+#include<xc.h>
+void main()
+{
+
+    TRISB=0;
+    PORTB=0xFF;
+}
