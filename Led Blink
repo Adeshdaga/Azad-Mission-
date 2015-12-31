@@ -1,0 +1,24 @@
+/*
+Adesh Daga
+led blink
+*/
+
+#include<xc.h>
+
+void main()
+{
+    while (1)
+    {
+        TRISC=0;
+
+        PORTC=0xFF;
+
+        for(int j=1;j>0;j++);
+
+
+        PORTC=0;
+
+        for(int j=1;j>0;j++);
+    }
+
+}
